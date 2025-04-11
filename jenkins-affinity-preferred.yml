@@ -5,7 +5,7 @@ metadata:
   labels:
     app: jenkins-set
 spec:
-  replicas: 2
+  replicas: 6
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -22,18 +22,17 @@ spec:
       containers:
       - name: jenkins
         image: jenkins/jenkins:latest
-
-        resources:
-          limits:
-            memory: "500Mi"
-            cpu: 1
-          requests:
-            memory: "500Mi"
-            cpu: 1
         ports:
         - containerPort: 8080
-      tolerations: 
-      - key: "name"
-        operator: "Equal"
-        value: "qa"
-        effect: "NoExecute"  
+      nodeSelector:
+        colour: red
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 5
+            preference:
+              matchExpressions:
+              - key: env
+                operator: In
+                values:
+                - test
