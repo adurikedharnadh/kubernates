@@ -32,4 +32,3 @@ spec:
           name: jenkins-volume
         ports:
         - containerPort: 8080
-         
