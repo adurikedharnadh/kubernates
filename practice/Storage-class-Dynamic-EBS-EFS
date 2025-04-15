@@ -1,0 +1,1000 @@
+  282  kubectl describe node ip-10-0-0-127.ap-south-1.compute.internal
+  283  kubectl get pods -A -owide
+  284  kubectl get pods -owide
+  285  kubectl get pods -owide -n my-jenkins
+  286  kubectl get nodes
+  287  kubectl delete -f jenkins-namespace-manifest.yml 
+  288  kubectl delete -f jenkins-deployement.yml 
+  289  kubectl get pods
+  290  kubectl get pods -n my-jenkins
+  291  ls
+  292  kubectl get resourcequota
+  293  kubectl get resourcequota -n my-jenkins
+  294  ls
+  295  kubectl get nodes
+  296  kubectl taint node ip-10-0-0-211.ap-south-1.compute.internal name=qa:NoExecute
+  297  kubectl get pods
+  298  kubectl get pods -n my-jenkins
+  299  kubectl delete -n jenkins-deployement.yml -n my-jenkins
+  300  kubectl delete -f jenkins-deployement.yml -n my-jenkins
+  301  kubectl get pods -n my-jenkins
+  302  kubectl get pods
+  303  kubectl get all
+  304  kubectl get all -n my-jenkins
+  305  ls
+  306  kubectl apply -f jenkins-deployement.yml 
+  307  kubectl get pods
+  308  kubectl get all
+  309  vi jenkins-deployement.yml 
+  310  kubectl apply -f jenkins-deployement.yml 
+  311  kubectl get pods -owide
+  312  vi jenkins-deployement.yml 
+  313  kubectl get pods
+  314  kubectl get pods -owide
+  315  kubectl get nodes
+  316  kubectl taint node ip-10-0-0-211.ap-south-1.compute.internal name=:NoExecute-
+  317  kubectl describe node ip-10-0-0-127.ap-south-1.compute.internal
+  318  kubectl get nodes
+  319  kunectl describe node ip-10-0-0-127.ap-south-1.compute.internal
+  320  kubectl describe node ip-10-0-0-127.ap-south-1.compute.internal
+  321  kubectl taint node ip-10-0-0-127.ap-south-1.compute.internal name=dev:NoExecute
+  322  kubectl taint node ip-10-0-0-127.ap-south-1.compute.internal name=dev:NoExecute-
+  323  kubectl get pods -owide
+  324  vi jenkins-deployement.yml 
+  325  kubectl apply -f jenkins-deployement.yml 
+  326  kubectl get nodes
+  327  kubectl get pods -owide
+  328  ls
+  329  cp jenkins-deployement.yml jenkins-deployement1.yml 
+  330  kubectl delete -f jenkins-deployement
+  331  kubectl delete -f jenkins-deployement.yml 
+  332  kubectl get pods
+  333  vi jenkins-deployement1.yml 
+  334  kubectl apply -f jenkins-deployement1.yml 
+  335  kubectl get pods
+  336  kubectl delete -f jenkins-deployement1.yml 
+  337  vi jenkins-deployement1.yml 
+  338  kubectl taint node ip-10-0-0-211.ap-south-1.compute.internal name=qa:NoExecute
+  339  kubectl get nodes
+  340  vi jenkins-deployement1.yml 
+  341  kubectl apply -f jenkins-deployement1.yml 
+  342  kubectl get pods
+  343  kubectl get nodes
+  344  kubectl get pods -owide
+  345  kubectl apply -f jenkins-deployement1.yml 
+  346  kubectl get nodes
+  347  kubectl get pods -owide
+  348  vi jenkins-deployement1.yml 
+  349  kubectl delete -f jenkins-deployement1.yml 
+  350  kubectl apply -f jenkins-deployement1.yml 
+  351  kubectl get pods -owide
+  352  vi jenkins-deployement1.yml 
+  353  kubectl get nodes
+  354  kubectl describe node ip-10-0-0-127.ap-south-1.compute.internal
+  355  kubectl taint node ip-10-0-0-127.ap-south-1.compute.internal name=dev:NoExecute-
+  356  kubectl taint node ip-10-0-0-127.ap-south-1.compute.internal name=dev:NoSchedule-
+  357  kubectl get pods
+  358  kubectl delete -f jenkins-deployement1.yml 
+  359  kubectl apply -f jenkins-deployement1.yml 
+  360  kubectl get pods -owide
+  361  kubectl get nodes
+  362  kubectl get nodes --show-labels
+  363  kubectl get nodes
+  364  kubectl label nodes ip-10-0-0-127.ap-south-1.compute.internal colour=red
+  365  kubectl get nodes --show-labels
+  366  kubectl get pods
+  367  kubectl delete -f jenkins-deployement1.yml 
+  368  vi jenkins-deployement1.yml 
+  369  kubectl taint node ip-10-0-0-211.ap-south-1.compute.internal name=qa:NoExecute-
+  370  kubectl get nodes
+  371  kubectl describe node ip-10-0-0-211.ap-south-1.compute.internal
+  372  vi jenkins-deployement1.yml 
+  373  cp jenkins-deployement1.yml jenkins-deployement2.yml
+  374  vi jenkins-deployement2.yml 
+  375  kunectl apply -f jenkins-deployement2.yml 
+  376  kubectl apply -f jenkins-deployement2.yml 
+  377  kubectl get pods
+  378  kubectl get pods -owide
+  379  kubectl get nodes --show-labels
+  380  kubectl label nodes ip-10-0-0-127.ap-south-1.compute.internal colour=red-
+  381  kubectl label nodes ip-10-0-0-127.ap-south-1.compute.internal colour-
+  382  kubectl get nodes --show-labels
+  383  kubectl delete -f jenkins-deployement2.yml 
+  384  kubectl apply -f jenkins-deployement2.yml 
+  385  kubectl get pods -owide
+  386  kubectl delete -f jenkins-deployement2.yml 
+  387  kubectl apply -f jenkins-deployement2.yml 
+  388  kubectl label nodes ip-10-0-0-127.ap-south-1.compute.internal colour=red
+  389  kubectl get pods -owide
+  390  kubectl delete -f jenkins-deployement2.yml 
+  391  vi jenkins-deployement2.yml 
+  392  cp jenkins-deployement2.yml jenkins-node-label.yml
+  393  vp jenkins-deployement1.yml jenkins-taint-tolerance.yml
+  394  cp jenkins-deployement1.yml jenkins-taint-tolerance.yml
+  395  git add
+  396  git status
+  397  ls
+  398  cp jenkins-node-label.yml jenkins-affinity.yml
+  399  vi jenkins-affinity.yml 
+  400  kubectl get pods
+  401  kubectl apply -f jenkins-affinity.yml 
+  402  kubectl get pods
+  403  kubectl get pods -owide
+  404  kubectl get nodes
+  405  kubectl label nodes ip-10-0-0-211.ap-south-1.compute.internal colour=blue
+  406  kubectl delete -d jenkins-affinity.yml 
+  407  kubectl delete -f jenkins-affinity.yml 
+  408  vi jenkins-affinity.yml 
+  409  kubectl apply -f jenkins-affinity.yml 
+  410  kubectl get pods
+  411  kubectl get pods -owide
+  412  kubectl delete -f jenkins-affinity.yml 
+  413  vi jenkins-affinity.yml 
+  414  kubectl apply -f jenkins-affinity.yml 
+  415  kubectl get pods
+  416  vi jenkins-affinity.yml 
+  417  kubectl apply -f jenkins-affinity.yml 
+  418  kubectl get pods
+  419  kubectl get pods -owide
+  420  kubectl delete -f jenkins-affinity.yml 
+  421  vi jenkins-affinity.yml 
+  422  kubectl get nodes --show-labels
+  423  vi jenkins-affinity.yml 
+  424  kubectl apply -f jenkins-affinity.yml 
+  425  kubectl get pods
+  426  kubectl get nodes
+  427  vi jenkins-affinity.yml 
+  428  cp jenkins-affinity.yml jenkins-affinity-preferred.yml
+  429  vi jenkins-affinity-preferred.yml 
+  430  kubectl apply -f jenkins-affinity-preferred.yml 
+  431  kubectl get pods
+  432  vi jenkins-affinity-preferred.yml 
+  433  kubectl get pods
+  434  kubectl get pods -owide
+  435  ls
+  436  mv jenkins-affinity.yml jenkins-affinity-required.yml
+  437  kubectl delete -f jenkins-affinity-preferred.yml 
+  438  kubectl get pods
+  439  vi jenkins-affinity-preferred.yml 
+  440  cp jenkins-deployement.yml 
+  441  ls
+  442  cp jenkins-affinity-preferred.yml 
+  443  cp jenkins-affinity-preferred.yml jenkins-pod-affinity.yml
+  444  vi jenkins-pod-affinity.yml 
+  445  kubectl get pods
+  446  kubectl apply -f jenkins-pod-affinity.yml
+  447  vi jenkins-pod-affinity.yml 
+  448  kubectl apply -f jenkins-pod-affinity.yml
+  449  vi jenkins-pod-affinity.yml 
+  450  kubectl apply -f jenkins-pod-affinity.yml
+  451  kubectl get pods
+  452  kubectl get pods -owide
+  453  kubectl delete -f jenkins-pod-affinity.yml
+  454  vi jenkins-pod-affinity.yml 
+  455  kubectl apply -f jenkins-pod-affinity.yml
+  456  kubectl get pods -owide
+  457  vi jenkins-pod-affinity.yml 
+  458  cp jenkins-pod-affinity.yml jenkins-pod-Antiaffinity.yml 
+  459  vi jenkins-pod-affinity.yml 
+  460  git status
+  461  vi jenkins-de
+  462  vi jenkins-deployement
+  463  vi jenkins-deployement.yml 
+  464  git add .
+  465  git status
+  466  git commit -m "Until POD Affinity"
+  467  git ststus
+  468  git status
+  469  git push
+  470  got status
+  471  history
+  472  ls
+  473  cd kubernates/
+  474  ks
+  475  ls
+  476  ls -lrt
+  477  vi jenkins-deployement1.yml 
+  478  vi jenkins-deployement2.yml 
+  479  vi jenkins-node-label.yml 
+  480  vi jenkins-taint-tolerance.yml 
+  481  vi jenkins-deployement.yml 
+  482  vi jenkins-taint-tolerance.yml 
+  483  history >> taint-tolerance-limitRange-node-label-affinity
+  484  ls
+  485  vi taint-tolerance-limitRange-node-label-affinity 
+  486  ls -lrt
+  487  cd practice/
+  488  ls
+  489  cd ..
+  490  ls -lrt
+  491  kubectl get pods
+  492  ls
+  493  kubectl get all
+  494  ls -lrt
+  495  kubectl get pods
+  496  ls -lrt
+  497  kunectl delete -f taint-tolerance-limitRange-node-label-affinity
+  498  kubectl delete -f taint-tolerance-limitRange-node-label-affinity
+  499  kubectl delete -f jenkins-deployement.yml
+  500  kubectl delete -f jenkins-pod-affinity.yml
+  501  kubectl delete -f jenkins-pod-Antiaffinity.yml 
+  502  kubectl get pods
+  503  kubectlg et nodes
+  504  kubectl get nodes
+  505  kubectl get pods
+  506  kubectl get pods -owide
+  507  kubectl get svc
+  508  kubectl get svc -n my-jenkins
+  509  kubectl get pods -n my-jenkins --show-labels
+  510  ls
+  511  vi jenkins-deployement.yml 
+  512  ls
+  513  vi jenkins-deployement1.yml 
+  514  vi jenkins-deployement2.yml 
+  515  vi jenkins-deployement.yml 
+  516  vi deployement.yml 
+  517  cp jenkins-deployement.yml deployment-svc.yml
+  518  vi deployment-svc.yml 
+  519  kubectl apply -f deployment-svc.yml -n my-jenkins
+  520  vi deployment-svc.yml 
+  521  vi jenkins-loadbalancer.yml 
+  522  vi jenkins-deployement1.yml 
+  523  ls
+  524  ls -lrt
+  525  vi jenkins-deamon.yml 
+  526  ls
+  527  ls -lrt
+  528  vi jenkins-replica.yml 
+  529  vi jenkins-nodeport.yml 
+  530  kubectl get pods
+  531  kubectl get pods -n my-jenkins
+  532  kubectl get svc -n my-jenkins
+  533  kubectl apply -f jenkins-nodeport.yml 
+  534  kubectl delete -f jenkins-nodeport.yml 
+  535  kubectl apply -f jenkins-nodeport.yml -n my-jenkins
+  536  kubectl get pods -n my-jenkins
+  537  vi deployment-svc.yml 
+  538  kubectl delete -f deployment-svc.yml 
+  539  kubectl delete -f deployment-svc.yml -n my-jenkins
+  540  vi jenkins-nodeport.yml 
+  541  kubectl get all
+  542  kubectl get all -n my-jenkins
+  543  kubectl get all -n my-jenkins --show-labels
+  544  vi deployment-svc.yml 
+  545  kubectl apply -f deployment-svc.yml -n my-jenkins
+  546  kubectl get pods -n my-jenkins
+  547  ls -lrt
+  548  vi jenkins-loadbalancer.yml
+  549  vi first.yml
+  550  vi jenkins.yml
+  551  vi jenkins-loadbalancer.yml
+  552  vi jenkins.yml
+  553  vi jenkins-nodeport.yml
+  554  kubectl get svc
+  555  kubectl get svc -n my-jenkins
+  556  kubectl get svc --show-labels
+  557  kubectl get svc --show-labels -n my-jenkins
+  558  vi jenkins-nodeport.yml 
+  559  vi deployment-svc.yml 
+  560  ls
+  561  ls -lrt
+  562  vi jenkins-replica.yml 
+  563  vi jenkins-nodeport.yml 
+  564  kubeclt apply -f jenkins-nodeport.yml 
+  565  kubectl apply -f jenkins-nodeport.yml 
+  566  kubectl delete -f jenkins-nodeport.yml -n my-jenkins
+  567  kubectl apply -f jenkins-nodeport.yml -n my-jenkins
+  568  kubectl get svs
+  569  kubectl get svc
+  570  kubectl get svc -n my-jenkins
+  571  kubectl get svc -n my-jenkins --show-labels
+  572  kubectl get all -n my-jenkins --show-labels
+  573  ls
+  574  vi deployment-svc.yml 
+  575  kubectl apply -f deployment-svc.yml -v my-jenkins
+  576  kubectl apply -f deployment-svc.yml -n my-jenkins
+  577  kubectl get pods -n my-jenkins
+  578  kubectl descripe pods jenkins-deployment-7ffb565676-b2v8g
+  579  kubectl describe pods jenkins-deployment-7ffb565676-b2v8g
+  580  kubectl get pods -n my-jenkins
+  581  kubectl delete -f deployment-svc.yml 
+  582  kubectl delete -f deployment-svc.yml -n my-jenkins
+  583  vi deployment-svc.yml 
+  584  kubectl apply -f deployment-svc.yml -n my-jenkins
+  585  kubectl get pods -n my-jenkins
+  586  kubectl logs jenkins-deployment-7ffb565676-j8vsh -n my-jenkins
+  587  kubectl get pods -n my-jenkins
+  588  kubectl logs jenkins-deployment-7ffb565676-j8vsh
+  589  kubectl logs jenkins-deployment-7ffb565676-j8vsh -n my-jenkins
+  590  cd ..
+  591  ls
+  592  cd kubernates/
+  593  ls
+  594  ls -lrt
+  595  vi jenkins-node-label.yml 
+  596  df -h
+  597  kubectl get replicaset -n my-jenkins
+  598  kubectl get pods -n my-jenkins
+  599  kubectl get pods -n my-jenkins -owide
+  600  kubectl logs jenkins-deployment-7ffb565676-wzgql
+  601  kubectl logs jenkins-deployment-7ffb565676-wzgql -n my-jenkins
+  602  ls
+  603  ls -lrt
+  604  ls
+  605  df -h
+  606  ls
+  607  pwd
+  608  ls
+  609  mkdir kedhar1
+  610  sudo chmod 777 kedhar1/
+  611  pwd
+  612  ps
+  613  ls
+  614  pwd
+  615  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.67:/ /root/kubernates/kedhar1
+  616  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.67:/ /root/kubernates/kedhar1/
+  617  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /root/kubernates/kedhar1/
+  618  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /root/kubernates/kedhar/
+  619  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /root/kubernates
+  620  ls
+  621  cd ..
+  622  ls
+  623  cd /home/ubuntu/
+  624  ls
+  625  mkdir kedhar
+  626  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /home/ubuntu/kedhar
+  627  sudo apt update
+  628  sudo apt install nfs-common
+  629  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /root/kubernates/kedhar1/l
+  630  df -h
+  631  dls
+  632  ls
+  633  cd ..
+  634  ls
+  635  cd
+  636  ls
+  637  cd kubernates/
+  638  ls
+  639  vi deployment-svc.yml 
+  640  cp deployment-svc.yml deployment-volume-NFS.yml
+  641  vi deployment-volume-NFS.yml 
+  642  kubectl get pods -n my-jenkins
+  643  kubectl delete -f deployment-svc.yml 
+  644  ls
+  645  kubectl delete -f deployment-svc.yml -n my-jenkins
+  646  kubectl get pods -n my-jenkins
+  647  kubectl apply -f deployment-volume-NFS.yml -n my-jenkins
+  648  kubectl get pods -n my-jenkins
+  649  kubectl describe pod jenkins-deployment-578c47db9c-4w8m5 -n my-jenkins
+  650  kubectl get pods -n my-jenkins
+  651  kubectl delete -f deployment-volume-NFS.yml -n my-jenkins
+  652  vi deployment-volume-NFS.yml 
+  653  kubectl get all -n my-jenkins
+  654  kubectl apply -f deployment-volume-NFS.yml -n my-jenkins
+  655  kubectl get pods -n my-jenkins
+  656  kubectl get all -n my-jenkins
+  657  kubectl get svc
+  658  kubectl get svc -n my-jenkins
+  659  kubectl get deploy -n my-jenkins
+  660  kubectl describe deployment jenkins-deployment -n my-jenkins
+  661  ls
+  662  cd kubernates/
+  663  ls
+  664  mkdir -p kedhar
+  665  chmod 777 kedhar/
+  666  cd kedhar/
+  667  pwd
+  668  kubectl get pods
+  669  kubectl get pods -n my-jenkins
+  670  ls
+  671  cd ..
+  672  ls
+  673  kubectl get all -n my-jenkins
+  674  kubectl apply -f deployment-svc.yml -n my-jenkins
+  675  kubectl get pods -n my-jenkins
+  676  kubectl get pods -n my-jenkins -owide
+  677  kubectl logs jenkins-deployment-7ffb565676-wzgql -n my-jenkins
+  678  kubectl get pods -n my-jenkins -owide
+  679  kubectl logs jenkins-deployment-7ffb565676-j8vsh
+  680  kubectl logs jenkins-deployment-7ffb565676-j8vsh -n my-jenkins
+  681  kubectl get pods -n my-jenkins -owide
+  682  df -h
+  683  lsblk
+  684  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /root/kubernates/kedhar1/
+  685  df -h
+  686  ls
+  687  cd /root/kubernates/kedhar1/
+  688  ls
+  689  touch file1
+  690  ls
+  691  cd
+  692  ls
+  693  cd kubernates/
+  694  ls
+  695  kubectl get pods -n my-jenkins
+  696  kubectl get all -n my-jenkins
+  697  kubectl describe pod jenkins-deployment-578c47db9c-dz6gn
+  698  kubectl describe pod jenkins-deployment-578c47db9c-dz6gn -n my-jenkins
+  699  kubectl get pods -n my-jenkins -owide
+  700  kubectl describe pod jenkins-deployment-578c47db9c-dz6gn
+  701  kubectl logs jenkins-deployment-578c47db9c-dz6gn -n my-jenkins
+  702  ls
+  703  cd kedhar
+  704  ls
+  705  cd ..
+  706  ks
+  707  ls
+  708  cd kedhar1/
+  709  ls
+  710  cd ..
+  711  ls
+  712  kubectl get pods
+  713  kubectl get pods -n my-jenkins
+  714  kubectl describe pod jenkins-deployment-578c47db9c-dz6gn -n my-jenkins
+  715  ls
+  716  chmod 777 kedhar1/
+  717  ls
+  718  ls -l
+  719  ls
+  720  jenkins delete -f deployment-volume-NFS.yml -n my-jenkins
+  721  kubectl delete -f deployment-volume-NFS.yml -n my-jenkins
+  722  kubectl apply -f deployment-volume-NFS.yml -n my-jenkins
+  723  kubectl get pods -n my-jenkins
+  724  kubectl logs jenkins-deployment-578c47db9c-fb5b7 -n my-jenkins
+  725  kubectl logs jenkins-deployment-578c47db9c-zqndx
+  726  kubectl logs jenkins-deployment-578c47db9c-zqndx -n my-jenkins
+  727  kubectl delete -f deployment-volume-NFS.yml -n my-jenkins
+  728  kubectl apply -f deployment-volume-NFS.yml -n my-jenkins
+  729  kubectl get pods -n my-jenkins
+  730  kubectl logs jenkins-deployment-578c47db9c-ptg2k -n my-jenkins
+  731  df -h
+  732  kubectl delete -f deployment-volume-NFS.yml -n my-jenkins
+  733  kubectl get all -n my-jenkins
+  734  kubectl apply -f deployment-volume-NFS.yml -n my-jenkins
+  735  kubectl delete -f deployment-volume-NFS.yml -n my-jenkins
+  736  kubectl apply -f deployment-volume-NFS.yml -n my-jenkins
+  737  ls
+  738  kubectl get pods -n my-jenkins
+  739  kubectl logs jenkins-deployment-578c47db9c-286kf
+  740  kubectl logs jenkins-deployment-578c47db9c-286kf -n my-jenkins
+  741  ls
+  742  cd kubernates/
+  743  ls
+  744  git status
+  745  git add .
+  746  git status
+  747  git commit -m "12th-April-volume-EFS"
+  748  git push
+  749  ls
+  750  vi deployment-svc.yml 
+  751  ls
+  752  cd kubernates/
+  753  ls
+  754  df -h
+  755  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.67:/ /root/kubernates/kedhar1
+  756  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 10.0.0.219:/ /root/kubernates/kedhar1
+  757  kubectl get pods
+  758  kubectl get pods -n my-jenkins
+  759  ls
+  760  kubectl delete -f deployment-volume-NFS.yml -n my-jenkins
+  761  kubectl get pods -n my-jenkins
+  762  kubectl get all -n my-jenkins
+  763  kubectl get resourcequota -n my-jenkins
+  764  kubectl get limitrange -n my-jenkins
+  765  ls
+  766  kubectl get nodes --show-labels
+  767  vi jenkins-pv.yml
+  768  kubectl apply -f jenkins-pv.yml
+  769  kubectl get persistentvolume
+  770  vi jenkins-pvc.yml
+  771  kubectl apply -f jenkins-pvc.yml 
+  772  kubectl get pvc
+  773  kubectl get persistentvolume
+  774  ls
+  775  vi jenkins-deployement.yml 
+  776  vi deployment-svc.yml 
+  777  kubectl apply -f deployment-svc.yml 
+  778  kubectl get pods
+  779  kubectl describe pod jenkins-deployment-777885677-4f9gq
+  780  kubectl get all 
+  781  kubectl logs jenkins-deployment-777885677-4f9gq
+  782  kubectl delete -f deployment-svc.yml 
+  783  kubectl get pods
+  784  kubectl apply -f deployment-svc.yml 
+  785  kubectl get pods
+  786  kubectl delete -f deployment-svc.yml 
+  787  kubectl delete -f jenkins-pvc.yml 
+  788  kubectl delete -f jenkins-pv.yml 
+  789  kubectl get all
+  790  kubectl apply -f jenkins-pv.yml 
+  791  kubectl get pv
+  792  kubectl apply -f jenkins-pvc.yml 
+  793  vi deployment-svc.yml 
+  794  kubectl get pv
+  795  kubectl get pvc
+  796  kubectl apply -f deployment-svc.yml 
+  797  vi deployment-svc.yml 
+  798  kubectl apply -f deployment-svc.yml 
+  799  kubectl get pods
+  800  kubectl get pods -owide
+  801  helm repo add aws-efs-csi-driver https://kubernetes-sigs.github.io/aws-efs-csi-driver/
+  802  snap install helm
+  803  snap install helm --classic
+  804  helm repo add aws-efs-csi-driver https://kubernetes-sigs.github.io/aws-efs-csi-driver/
+  805  helm upgrade --install aws-efs-csi-driver aws-efs-csi-driver/aws-efs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=true   --set controller.serviceAccount.name=efs-csi-controller-sa
+  806  kubectl ger pods -A
+  807  kubectl get pods -A
+  808  ls
+  809  vi jenkins-EFS-staticvolume.yml
+  810  kubectl apply -f jenkins-EFS-staticvolume.yml 
+  811  kubectl get pv
+  812  vi jenkins-EFS-staticvolume-pvc.yml
+  813  kubectl get pv
+  814  kubectl get pvc
+  815  kubectl apply -f jenkins-EFS-staticvolume-pvc.yml 
+  816  kubectl get pvc
+  817  kubectl get pv
+  818  mv jenkins-EFS-staticvolume.yml jenkins-EFS-staticvolume-pv.yml
+  819  kubectl get pods
+  820  kubectl delete -f deployment-svc.yml 
+  821  kubectl get pods
+  822  cp deployment-svc.yml deployment-EFS-SVC.yml
+  823  vi deployment-EFS-SVC.yml 
+  824  kubectl apply -f deployment-EFS-SVC.yml 
+  825  kubectl get pods
+  826  kubectl get pods -owide
+  827  ls
+  828  vi jenkins-nodeport.yml
+  829  kubectl apply -f jenkins-nodeport.yml 
+  830  vi jenkins-nodeport.yml
+  831  kubectl apply -f jenkins-nodeport.yml 
+  832  kubectl get svc
+  833  ls
+  834  kubectl get pods
+  835  kubectl logs jenkins-deployment-598769f455-6sn95
+  836  kubectl get pods
+  837  kubectl logs jenkins-deployment-598769f455-q6jht
+  838  kubectl get pods
+  839  kubectl logs jenkins-deployment-598769f455-4xwbr
+  840  ls
+  841  vi jenkins-pv.yml 
+  842  ls
+  843  vi jenkins-EFS-staticvolume-pv.yml
+  844  ls
+  845  kubectl get nodes --show-labels
+  846  ls
+  847  cd kubernates/
+  848  ls
+  849  kubectl get pv
+  850  kubectl get pvc
+  851  kubectl delete -f deployment-EFS-SVC.yml 
+  852  kubeclt get pods
+  853  kubectl get pods
+  854  kubectl apply -f deployment-EFS-SVC.yml 
+  855  kubectl get pods
+  856  kubectl get pods -owide
+  857  ls
+  858  cd kubernates/
+  859  ls
+  860  history >> PV-EFS
+  861  history
+  862  ls
+  863  vi deployment-svc.yml 
+  864  cp deployment-svc.yml deployment-local-pv-svc.yml
+  865  vi deployment-svc.yml
+  866  ls
+  867  git status
+  868  git add .
+  869  git commit -m "Apr-13-volumes-EFS-PV-PVC"
+  870  git status
+  871  ls
+  872  git push
+  873  ls
+  874  cd kedhar1/
+  875  ls
+  876  rm -rf *
+  877  ls
+  878  cd ..
+  879  ls
+  880  git status
+  881  git add .
+  882  git commit -m "delete-kedhar1"
+  883  git push
+  884  git status
+  885  lsblk
+  886  helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver/
+  887  helm repo update
+  888  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=true   --set controller.serviceAccount.name=ebs-csi-controller-sa
+  889  kubectl get pv
+  890  kubectl get pvc
+  891  kubectl get pods -A
+  892  lsblk
+  893  sudo mkfs.ext4 /dev/xvdbc
+  894  lsblk
+  895  sudo mkdir -p /mnt/ebs
+  896  sudo mount /dev/xvdbc /mnt/ebs
+  897  sudo chmod -R 777 /mnt/ebs
+  898  lsblk
+  899  ls
+  900  vi jenkins-EBS-Staticvolume-pv.yml
+  901  kubectl get pods
+  902  kubectl delete -d deployment-EFS-SVC.yml 
+  903  kubectl delete -f deployment-EFS-SVC.yml 
+  904  kubectl get pods
+  905  kubectl apply -f jenkins-EBS-Staticvolume-pv.yml 
+  906  kubectl get pv
+  907  vi jenkins-EBS-Staticvolume-pvc.yml
+  908  kubectl apply -f jenkins-EBS-Staticvolume-pvc.yml 
+  909  kubectl get pv
+  910  kubectl get pvc
+  911  ls
+  912  cp deployment-EFS-SVC.yml deployment-EBS-SVC-with-pv.yml
+  913  vi deployment-EBS-SVC-with-pv.yml 
+  914  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+  915  kubectl get pods
+  916  ls
+  917  df -h
+  918  cd /mnt/
+  919  ls
+  920  cd ebs/
+  921  ls
+  922  kubectl get pods
+  923  kubectl describe pod jenkins-deployment-7d79fc8bb7-5w5x5
+  924  kubectl get pods
+  925  kubectl get pv
+  926  kubectl get pvc
+  927  vi deployment-EBS-SVC-with-pv.yml 
+  928  ls
+  929  cd
+  930  cd kubernates/
+  931  ls
+  932  vi deployment-EBS-SVC-with-pv.yml 
+  933  kubectl get all
+  934  kubectl logs pod/jenkins-deployment-7d79fc8bb7-5w5x5
+  935  kubectl describe pod pod/jenkins-deployment-7d79fc8bb7-h5cts
+  936  kubectl describe pod jenkins-deployment-7d79fc8bb7-h5cts
+  937  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+  938  kubectl get pods
+  939  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+  940  kubectl get pods
+  941  kubectl get pv
+  942  kubectl get pvc
+  943  kubectl describe pvc ebs-static-pvc
+  944  ls
+  945  vi jenkins-EBS-Staticvolume-pv.yml 
+  946  vi jenkins-EBS-Staticvolume-pvc.yml 
+  947  df -h
+  948  ls
+  949  kubectl get pods
+  950  kubectl describe pod jenkins-deployment-7d79fc8bb7-5pskm
+  951  kubectl get pv
+  952  kubectl get pvc
+  953  df -h
+  954  ls
+  955  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+  956  kubectl delete -d jenkins-EBS-Staticvolume-pvc.yml 
+  957  kubectl delete -f jenkins-EBS-Staticvolume-pvc.yml 
+  958  kubectl delete -f jenkins-EBS-Staticvolume-pv.yml 
+  959  kubectl get pods
+  960  kubectl get all
+  961  kubectl get pv
+  962  kubectl get pvc
+  963  ls
+  964  vi jenkins-EBS-Staticvolume-pv.yml 
+  965  vi jenkins-EBS-Staticvolume-pvc.yml 
+  966  kubectl apply -f jenkins-EBS-Staticvolume-pv.yml 
+  967  kubectl get pv
+  968  kubectl apply -f jenkins-EBS-Staticvolume-pvc.yml 
+  969  kubectl get pvc
+  970  kubectl get pv
+  971  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+  972  kubectl get pods
+  973  kubectl describe pod jenkins-deployment-7d79fc8bb7-fzqmq
+  974  kubectl get pods
+  975  kubectl describe pod jenkins-deployment-7d79fc8bb7-fzqmq
+  976  kubectl get pods
+  977  kubectl logs jenkins-deployment-7d79fc8bb7-fzqmq
+  978  kubectl describe pod jenkins-deployment-7d79fc8bb7-fzqmq
+  979  df -h
+  980  kubectl get pods
+  981  kubectl get pv
+  982  kubectl get pvc
+  983  kubectl get pods
+  984  kubectl describe pod jenkins-deployment-7d79fc8bb7-n4mss
+  985  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+  986  kubectl ls
+  987  kubectl get pods
+  988  kubectl delete -f jenkins-EBS-Staticvolume-pvc.yml 
+  989  kubectl delete -f jenkins-EBS-Staticvolume-pv.yml 
+  990  kubectl get pv
+  991  kubectl get pvc
+  992  ls
+  993  vi jenkins-EBS-Staticvolume-pv.yml 
+  994  kubectl apply -f jenkins-EBS-Staticvolume-pv.yml 
+  995  kubectl apply -f jenkins-EBS-Staticvolume-pvc.yml 
+  996  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+  997  kubectl get pods
+  998  kubectl get pod
+  999  kubectl get pv
+ 1000  kubectl get pvc
+ 1001  df -h
+ 1002  lsblk
+ 1003  kubectl get pods
+ 1004  kubectl get pods -owide
+ 1005  kubectl describe pod jenkins-deployment-7d79fc8bb7-dv95b
+ 1006  kubectl get pods
+ 1007  kubectl describe pod jenkins-deployment-7d79fc8bb7-7vdms
+ 1008  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1009  kubectl get pods
+ 1010  kubectl get pv
+ 1011  kubectl get pvc
+ 1012  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1013  kubectl get pods
+ 1014  kubectl get pods -owide
+ 1015  kubectl describe pod jenkins-deployment-7d79fc8bb7-cvrp4
+ 1016  kubectl get pv
+ 1017  kubectl get pvc
+ 1018  kubectl get pods -owide
+ 1019  lsblk
+ 1020  kubectl get pods
+ 1021  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1022  ls
+ 1023  cd kubernates/
+ 1024  ls
+ 1025  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1026  kubectl get pods
+ 1027  kubectl get pvc
+ 1028  kubectl get pv
+ 1029  ls
+ 1030  kubectl delete -f jenkins-EBS-Staticvolume-pvc.yml 
+ 1031  kubectl delete -f jenkins-EBS-Staticvolume-pv.yml 
+ 1032  kubectl get pv
+ 1033  kubectl get pvc
+ 1034  ls
+ 1035  vi jenkins-EBS-Staticvolume-pv.yml 
+ 1036  kubectl apply -f jenkins-EBS-Staticvolume-pv.yml 
+ 1037  vi jenkins-EBS-Staticvolume-pvc.yml 
+ 1038  kubectl get jenkins-EBS-Staticvolume-pvc.yml 
+ 1039  kubectl apply -f jenkins-EBS-Staticvolume-pvc.yml 
+ 1040  kubectl get pv
+ 1041  kubectl get pvc
+ 1042  kuvectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1043  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1044  kubectl get pods
+ 1045  kubectl describe pod jenkins-deployment-7d79fc8bb7-4j7dp
+ 1046  kubectl get pods
+ 1047  kubectl describe pod jenkins-deployment-7d79fc8bb7-v5w9r
+ 1048  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1049  kubectl delete -f jenkins-EBS-Staticvolume-pvc.yml 
+ 1050  kubectl delete -f jenkins-EBS-Staticvolume-pv.yml 
+ 1051  kubectl get pv
+ 1052  kubectl get pvc
+ 1053  ls
+ 1054  cd kubernates/
+ 1055  ls
+ 1056  kubectl get pods
+ 1057  kubectl get svc
+ 1058  ls
+ 1059  kubectl get pv
+ 1060  kubectl get pvc
+ 1061  ls
+ 1062  vi jenkins-EBS-Staticvolume-pv.yml 
+ 1063  kubectl get pods
+ 1064  kubectl get svc
+ 1065  kubectl apply -f jenkins-EBS-Staticvolume-pv.yml 
+ 1066  kubectl apply -f jenkins-EBS-Staticvolume-pvc.yml 
+ 1067  kubectl get pv
+ 1068  kubectl get pvc
+ 1069  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1070  kubectl get pods
+ 1071  kubectl get pods -owide
+ 1072  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1073  kubectl delete -f jenkins-EBS-Staticvolume-pvc.yml 
+ 1074  kubectl delete -f jenkins-EBS-Staticvolume-pv.yml 
+ 1075  kubectl get namespace
+ 1076  kubectl get all
+ 1077  kubectl get pv
+ 1078  kubectl get resourcequota
+ 1079  kubectl get limitrange
+ 1080  kubectl get limitrange -n my-jenkins
+ 1081  kubectl get resourcequota -n my-jenkins
+ 1082  kunectl get nodes
+ 1083  kubectlg et nodes
+ 1084  kubectl get nodes
+ 1085  kubectl get pods -A
+ 1086  docker image
+ 1087  git status
+ 1088  ls
+ 1089  cd kedhar
+ 1090  ls
+ 1091  cd ..
+ 1092  ls
+ 1093  cd kedhar1/
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  git add .
+ 1098  gie commit -m "Before class"
+ 1099  git commit -m "Before class"
+ 1100  git push
+ 1101  git pull
+ 1102  git status
+ 1103  git push
+ 1104  git branch -A
+ 1105  git branch
+ 1106  git branch -A
+ 1107  git branch -a
+ 1108  git checkout main
+ 1109  git branch -a
+ 1110  git checkout remotes/origin/HEAD
+ 1111  git switch remotes/origin/HEAD
+ 1112  git status
+ 1113  git branch -a
+ 1114  git checkout main
+ 1115  git pull
+ 1116  git status
+ 1117  git branch -a
+ 1118  git merge remotes/origin/HEAD
+ 1119  git branch -a
+ 1120  clear
+ 1121  ls
+ 1122  vi jenkins-EBS-Staticvolume-pv.yml 
+ 1123  vi jenkins-EFS-staticvolume-pv.yml 
+ 1124  kunectl get pods -A
+ 1125  kubectl get pods -A
+ 1126  vi jenkins-Storageclass-EBS-pv.yml
+ 1127  mv jenkins-Storageclass-EBS-pv.yml jenkins-Storageclass-EBS.yml
+ 1128  kubectl apply -f jenkins-Storageclass-EBS.yml 
+ 1129  kubectl get storageclass
+ 1130  vi jenkins-Storageclass-EBS-pvc.yml
+ 1131  kubectl apply -f jenkins-Storageclass-EBS-pvc.yml 
+ 1132  kubectl get pv
+ 1133  kubectl get pvc
+ 1134  kubectl describe pvc my-pvc
+ 1135  kubectl get pvc
+ 1136  vi deployment-EBS-SVC-with-pv.yml 
+ 1137  kubctl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1138  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1139  kubectl get pods
+ 1140  kubectl get pvc
+ 1141  kubectl describe pod jenkins-deployment-7876dc7dd4-fxcx8
+ 1142  vi deployment-EBS-SVC-with-pv.yml 
+ 1143  kubectl desctibe pvc my-pvc
+ 1144  kubectl describe pvc my-pvc
+ 1145  kubectl get pods -A
+ 1146  kubectl delete pod ebs-csi-controller-f77cb9cc4-69c6b ebs-csi-controller-f77cb9cc4-xcrrn ebs-csi-node-6sknm ebs-csi-node-m2q4x ebs-csi-node-psmmg -n kube-system
+ 1147  kubectl get pods -A
+ 1148  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1149  kubectl delete -f jenkins-Storageclass-EBS-pvc.yml 
+ 1150  kubectl get pvc
+ 1151  kubectl get pods
+ 1152  kubectl get pv
+ 1153  kubectl delete pvc pvc-dbbf693d-76b8-4d32-9b6e-d28f7b4cb00e
+ 1154  kubectl delete pv pvc-dbbf693d-76b8-4d32-9b6e-d28f7b4cb00e
+ 1155  kubectl delete pv pvc-dbbf693d-76b8-4d32-9b6e-d28f7b4cb00e -f
+ 1156  kubectl delete pv pvc-dbbf693d-76b8-4d32-9b6e-d28f7b4cb00e --force
+ 1157  kubectl edit pv pvc-dbbf693d-76b8-4d32-9b6e-d28f7b4cb00e
+ 1158  kubectl get pv
+ 1159  kubectl apply -f jenkins-Storageclass-EBS-pvc.yml 
+ 1160  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1161  kubectl get pvc
+ 1162  kubectl get pods
+ 1163  kubectl get pvc
+ 1164  kubectl get pv
+ 1165  kubectl get pv pvc-2d0ea0aa-2704-46d1-ae3a-ffbc17022fa2 -oyaml
+ 1166  kubectl get pods
+ 1167  kubectl describe pods jenkins-deployment-7876dc7dd4-27v26
+ 1168  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1169  kubectl get pods
+ 1170  kubectl get pvc
+ 1171  kubectl get pv
+ 1172  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1173  kubectl get pods
+ 1174  kubectl describe pod jenkins-deployment-7876dc7dd4-2g8hs
+ 1175  kubectl get pods
+ 1176  kubectl describe pod jenkins-deployment-7876dc7dd4-58dlj
+ 1177  kubectl get pods -owide
+ 1178  kubectl describe pod jenkins-deployment-7876dc7dd4-b5g5h
+ 1179  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1180  kubectl delete -f jenkins-Storageclass-EBS-pvc.yml 
+ 1181  kubectl pv
+ 1182  kubectl get pv
+ 1183  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=false   --set controller.serviceAccount.name=ebs-csi-controller-sa   --set enableVolumeScheduling=true   --set enableVolumeResizing=true   --set enableVolumeSnapshot=true   --set node.serviceAccount.create=false   oci://public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
+ 1184  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=false   --set controller.serviceAccount.name=ebs-csi-controller-sa   --set enableVolumeScheduling=true   --set enableVolumeResizing=true   --set enableVolumeSnapshot=true   --set node.serviceAccount.create=false   oci://public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
+ 1185  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa --set enableVolumeScheduling=true --set enableVolumeResizing=true --set enableVolumeSnapshot=true --set node.serviceAccount.create=false oci://public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
+ 1186  helm ls -A
+ 1187  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa --set enableVolumeScheduling=true --set enableVolumeResizing=true --set enableVolumeSnapshot=true --set node.serviceAccount.create=false oci://public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
+ 1188  helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver/helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver/
+ 1189  helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver/
+ 1190  helm repo update
+ 1191  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa --set enableVolumeScheduling=true --set enableVolumeResizing=true --set enableVolumeSnapshot=true --set node.serviceAccount.create=false oci://public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
+ 1192  kubectl get pv
+ 1193  kubectl delete pv pvc-2d0ea0aa-2704-46d1-ae3a-ffbc17022fa2 --force
+ 1194  helm upgrade --install aws-ebs-csi-driver   oci://public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=false   --set controller.serviceAccount.name=ebs-csi-controller-sa   --set enableVolumeScheduling=true   --set enableVolumeResizing=true   --set enableVolumeSnapshot=true   --set node.serviceAccount.create=false
+ 1195  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa --set enableVolumeScheduling=true --set enableVolumeResizing=true --set enableVolumeSnapshot=true --set node.serviceAccount.create=false
+ 1196  helm purge aws-ebs-csi-driver -n kube-system
+ 1197  helm delete aws-ebs-csi-driver -n kube-system
+ 1198  kubectl get pods -A
+ 1199* helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa --set enableVolumeScheduling=true --set enableVolumeResizing=true --set enableVolumeSnapshot=true --set node.serviceAccount.create=falsehelm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa  --set node.serviceAccount.create=false
+ 1200  kubectl get pods -A
+ 1201  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa  --set node.serviceAccount.create=false
+ 1202  kubectl get pods -A
+ 1203  helm ls -A
+ 1204  vi EBS-service-account.yml
+ 1205  vi EBS-role-binding.yml
+ 1206  kubectl apply -f EBS-role-binding.yml 
+ 1207  kubectl apply -f EBS-service-account.yml 
+ 1208  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system --set controller.serviceAccount.create=false --set controller.serviceAccount.name=ebs-csi-controller-sa  --set node.serviceAccount.create=false
+ 1209  kubectl get pods -A
+ 1210  kubectl get all -A
+ 1211  kubectl get pod -n kube-system -l "app.kubernetes.io/name=aws-ebs-csi-driver,app.kubernetes.io/instance=aws-ebs-csi-driver"
+ 1212  kubectl get pods -A
+ 1213  kubectl get pv
+ 1214  kubectl get pvc
+ 1215  kubectl get pods
+ 1216  kubectl edit pv pvc-2d0ea0aa-2704-46d1-ae3a-ffbc17022fa2 
+ 1217  kubectl get pc
+ 1218  kubectl get pv
+ 1219  kubectl apply -f jenkins-Storageclass-EBS-pvc.yml 
+ 1220  kubectl get pvc
+ 1221  kubectl apply -f deployment-EBS-SVC-with-pv.yml 
+ 1222  kubectl get pods
+ 1223  kubectl describe pod jenkins-deployment-7876dc7dd4-72vts
+ 1224  kubectl get pods
+ 1225  kubectl get pods -n kube-system
+ 1226  kubectl describe pod ebs-csi-controller-f77cb9cc4-r6t7s -n kube-system
+ 1227  helm delete aws-ebs-csi-driver -n kube-system
+ 1228  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=true   --set controller.serviceAccount.name=ebs-csi-controller-sa
+ 1229  kubectl delete sa ebs-csi-controller-sa -n kube-system
+ 1230  helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver   --namespace kube-system   --set controller.serviceAccount.create=true   --set controller.serviceAccount.name=ebs-csi-controller-sa
+ 1231  kubectl get pods -A
+ 1232  kubectl get pods
+ 1233  kubectl describe pod jenkins-deployment-7876dc7dd4-72vts
+ 1234  kubectl get pods
+ 1235  kubectl get pods -owide
+ 1236  kubectl get pv
+ 1237  kubectl get pvc
+ 1238  kubectl describe pv pvc-de638f87-0519-4dab-a188-15f0bf64be94
+ 1239* vi jenkins-Storagecla
+ 1240  kubectl apply -f jenkins-Storageclass-EFS.yml
+ 1241  kubectl get pv
+ 1242  kubectl get pvc
+ 1243  kubectl get pv
+ 1244  kubectl get pvc
+ 1245  vi deployment-EFS-dynamic.yml
+ 1246  kubectl apply -f deployment-EFS-dynamic.yml 
+ 1247  kubectl get pv
+ 1248  kubectl get pvc
+ 1249  kubectl describe pvc efs-claim
+ 1250  kubectl get storageclass
+ 1251  kubectl get pods -A
+ 1252  kubectl logs efs-csi-controller-67b47c9fd6-9rxc5
+ 1253  kubectl logs efs-csi-controller-67b47c9fd6-9rxc5 -n kube-system
+ 1254  ls
+ 1255  vi jenkins-Storageclass-EFS.yml
+ 1256  ls
+ 1257  kubectl get storageclass
+ 1258  kubectl delete storageclass efs-sc
+ 1259  kubectl get storageclass
+ 1260  kubectl get pods -A
+ 1261  kubectl get pods 
+ 1262  kubectl delete -f deployment-EBS-SVC-with-pv.yml 
+ 1263  kubectl get pods 
+ 1264  kubectl delete -f deployment-EFS-dynamic.yml 
+ 1265  kubectl get pods
+ 1266  kubectl get pv
+ 1267  kubectl get pvc
+ 1268  ls
+ 1269  kubectl apply -f jenkins-Storageclass-EFS.yml 
+ 1270  kubectl apply -f deployment-EFS-dynamic.yml 
+ 1271  kubectl get pods
+ 1272  kubectl get pv
+ 1273  kubectl get pvc
+ 1274  kubectl describe pvc efs-claim
+ 1275  ls
+ 1276  vi deployment-EFS-dynamic.yml
+ 1277  vi jenkins-Storageclass-EFS.yml
+ 1278  ls
+ 1279  cd practice/
+ 1280  ls
+ 1281  history >> Storage-class-Dynamic-EBS-EFS
