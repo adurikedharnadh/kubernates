@@ -12,4 +12,4 @@ spec:
   storageClassName: ""
   csi:
     driver: efs.csi.aws.com
-    volumeHandle: fs-071ba5417a048fe62  # or fsap-abcdef1234567890 for access point
+    volumeHandle: fs-0573b69f70e0993e0  # or fsap-abcdef1234567890 for access point
